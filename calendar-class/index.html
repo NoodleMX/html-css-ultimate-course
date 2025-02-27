@@ -6,31 +6,26 @@
     <title>Calendar Class</title>
   </head>
   <body>
-    <!-- <form>
-      <label for="hour">
-        <span>Hour</span>
-        <input type="time" id="hour" name="hour" />
-      </label>
-      <label for="day">
-        <span>Day</span>
-        <input type="date" id="day" name="day" />
-      </label>
-      <label for="week">
-        <span>Week</span>
-        <input type="week" id="week" name="week" />
-      </label>
-      <label for="month">
-        <span>Month</span>
-        <input type="month" id="month" name="month" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form> -->
-    <form>
-      <label for="calendar">
-        <span>Calendar</span>
-        <input type="datetime-local" id="calendar" name="calendar" />
-      </label>
-      <input type="submit" value="Submit" />
-    </form>
+    <main>
+      <form action="">
+        <label for="name">
+          <span>What is your name?</span>
+          <input type="text" name="name" id="name" autocomplete="names" required />
+        </label>
+        <label for="email">
+          <span>What is your email?</span>
+          <input type="email" name="email" id="email" autocomplete="email" required />
+        </label>
+        <label for="country">
+          <span>What is your country?</span>
+          <input type="text" name="country" id="country" autocomplete="country" required />
+        </label>
+        <label for="postal-code">
+          <span>What is your postal code?</span>
+          <input type="number" name="postal-code" id="postal-code" autocomplete="postal-code" requireds />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
   </body>
 </html>
