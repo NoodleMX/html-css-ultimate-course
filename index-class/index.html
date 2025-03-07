@@ -14,26 +14,63 @@
     <header>
       <h1>HTML5 Template</h1>
       <nav>
-        <a href="#">Home</a>
+        <menu>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </menu>
       </nav>
     </header>
     <main>
-      <h2>I'm a h2 subtitle</h2>
+      <h2>Subtitle of the main sections</h2>
+      <hr />
+
       <section>
-        <h3>I'm a h3 subtitle</h3>
+        <hgroup>
+          <h3>Hgroup Title</h3>
+          <p>True or Reality</p>
+        </hgroup>
         <article>
-          <p>I'm a text</p>
+          <p>Article example</p>
         </article>
       </section>
+      <hr />
+
       <ul>
         <li>I'm an apple</li>
       </ul>
-      <ol></ol>
-      <div></div>
+      <hr />
+
+      <ol>
+        <li>I'm an apple</li>
+      </ol>
+      <hr />
+
+      <div>
+        <blockquote cite="https://example.com">
+          <p>This is an example of a quote.</p>
+        </blockquote>
+        <p>-El Bombo, <cite>Monster Hunter Wilds</cite></p>
+      </div>
+      <hr />
+
+      <section>
+        <dl>
+          <dt>HTML</dt>
+          <dd>HyperText Markup Language</dd>
+          <dt>CSS</dt>
+          <dd>Cascading Style Sheets</dd>
+        </dl>
+      </section>
+      <hr />
     </main>
+
     <aside>
       <h2>I'm a subtitle inside an aside.</h2>
     </aside>
+    <hr />
+
     <footer>
       <section>
         <address>
@@ -42,6 +79,19 @@
           <p>Developed by <a href="https://noodle.com">Noodle</a></p>
         </address>
       </section>
+      <figure>
+        <pre role="img" aria-label="ASCII COW">
+            ___________________________
+        &lt; I'm an expert in my field. &gt;
+            ---------------------------
+                \   ^__^
+                 \  (oo)\_______
+                    (__)\       )\/\
+                        ||----w |
+                        ||     ||
+        </pre>
+        <figcaption id="cow-caption">A cow saying, "I'm an expert in my field." The cow is illustrated using preformatted text characters.</figcaption>
+      </figure>
     </footer>
   </body>
 </html>
